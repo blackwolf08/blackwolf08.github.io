@@ -39,7 +39,7 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/beingsunnydhama",
   medium: "https://medium.com/@dhamasunny98",
   stackoverflow: "https://stackoverflow.com/users/10656906/sunny-dhama",
-  instagram: "https://instagram.com/sunny.dhama",
+  instagram: "https://instagram.com/sunnydhama_",
   twitter: "https://twitter.com/sunny_dhama_",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia

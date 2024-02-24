@@ -45,9 +45,19 @@
   line-height: 40px;
 }
 
-.greeting-image-div > img {
+.greeting-image-div {
   max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.greeting-image-div > img {
+  max-width: 70%;
   height: auto;
+  border-radius: 50%;
+  border: 10px solid $buttonColor;
+  position: relative;
 }
 
 .wave-emoji {
@@ -108,7 +118,12 @@
     display: block;
   }
   .greeting-image-div {
-    height: 256px;
+    height: 290px;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  .main {
+    margin: 10px;
   }
 }
 
