@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.b045f34d.css",
-    "main.js": "/static/js/main.60fadddb.js",
+    "main.js": "/static/js/main.5d2969fe.js",
     "static/css/64.f875d4ca.chunk.css": "/static/css/64.f875d4ca.chunk.css",
     "static/js/64.daa3684c.chunk.js": "/static/js/64.daa3684c.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.f308e428.chunk.js": "/static/js/769.f308e428.chunk.js",
-    "static/media/sunny-avatar.JPG": "/static/media/sunny-avatar.362b789f2306502bad70.JPG",
+    "static/media/sunny-avatar.jpeg": "/static/media/sunny-avatar.29f6a00c742f3bf701ed.jpeg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/amby-logo.png": "/static/media/amby-logo.211a7216a084fe9ac2d4.png",
     "static/media/nlp4science-logo.png": "/static/media/nlp4science-logo.714b23bf5616d261bd9f.png",
@@ -20,7 +20,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.b045f34d.css.map": "/static/css/main.b045f34d.css.map",
-    "main.60fadddb.js.map": "/static/js/main.60fadddb.js.map",
+    "main.5d2969fe.js.map": "/static/js/main.5d2969fe.js.map",
     "64.f875d4ca.chunk.css.map": "/static/css/64.f875d4ca.chunk.css.map",
     "64.daa3684c.chunk.js.map": "/static/js/64.daa3684c.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -28,6 +28,6 @@
   },
   "entrypoints": [
     "static/css/main.b045f34d.css",
-    "static/js/main.60fadddb.js"
+    "static/js/main.5d2969fe.js"
   ]
 }
