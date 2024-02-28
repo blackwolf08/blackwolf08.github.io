@@ -1,15 +1,19 @@
-import React from "react";
+import React, {useContext} from "react";
 import "./Progress.scss";
 import {illustration, techStack} from "../../portfolio";
 import {Fade} from "react-reveal";
 import Build from "../../assets/lottie/build";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+import StyleContext from "../../contexts/StyleContext";
 
 export default function StackProgress() {
+  const {isDark} = useContext(StyleContext);
   if (techStack.viewSkillBars) {
     return (
       <Fade bottom duration={1000} distance="20px">
-        <div className="skills-container">
+        <div
+          className={isDark ? "dark-mode skills-container" : "skills-container"}
+        >
           <div className="skills-bar">
             <h1 className="skills-heading">Proficiency</h1>
             {techStack.experience.map((exp, i) => {

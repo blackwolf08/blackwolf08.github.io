@@ -1,5 +1,10 @@
 @import "../../_globalColor";
 
+.dark-mode#skills {
+  background-color: $darkCardBackground;
+  border-radius: 10px;
+  box-shadow: $darkBoxShadow2 0px 20px 30px -10px;
+}
 .skills-main-div {
   display: flex;
   width: 100%;
@@ -26,6 +31,12 @@
 }
 .subTitle {
   color: $subTitle;
+}
+.dark-mode.skills-heading {
+  background-color: $darkCardBackground;
+}
+.dark-mode.subTitle {
+  background-color: $darkCardBackground;
 }
 
 /* Media Query */

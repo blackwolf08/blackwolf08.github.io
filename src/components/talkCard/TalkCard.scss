@@ -21,7 +21,8 @@
   box-shadow: 0 20px 40px $darkBoxShadow2;
 }
 .dark-rectangle {
-  box-shadow: 0px 0px 20px 0px $darkBoxShadow;
+  box-shadow: $darkBoxShadow2 0px 20px 30px -10px;
+  background-color: $darkCardBackground;
 }
 .mask {
   clip: rect(0px, 460px, 220px, 0px);

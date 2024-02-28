@@ -8,7 +8,7 @@
 .tw-main-div {
   margin-left: 15px;
   margin-right: 15px;
-  margin-bottom: 15px;
+  margin-bottom: -100px;
   width: auto;
   padding: 1.5rem;
 }
@@ -20,4 +20,10 @@
 .timeline-Header-title {
   font-size: 56px;
   font-weight: 100 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .tw-main-div {
+    margin-bottom: -50px;
+  }
 }

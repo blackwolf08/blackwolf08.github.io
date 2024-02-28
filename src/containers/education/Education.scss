@@ -1,6 +1,14 @@
+@import "../../_globalColor";
+
+// .dark-mode.education-section {
+//   background-color: $darkCardBackground;
+//   border-radius: 10px;
+// }
+
 .education-heading {
   font-size: 56px;
   font-weight: 400;
+  text-align: center;
 }
 
 .education-section {
@@ -18,9 +26,11 @@
 }
 
 .education-card-container {
-  display: flex;
-  flex-direction: column;
-  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-gap: 1rem 1rem;
+  gap: 1rem 1rem;
+  grid-auto-rows: 1fr;
 }
 
 @media (max-width: 1380px) {
@@ -39,6 +49,7 @@
 @media (max-width: 768px) {
   .education-card-container {
     padding-top: 0px;
+    gap: 3rem 1rem;
   }
   .education-heading {
     font-size: 30px;

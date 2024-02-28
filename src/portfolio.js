@@ -127,7 +127,7 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "University of Florida, Gainesville, FL, USA",
+      schoolName: "University of Florida",
       logo: require("./assets/images/uf-logo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "August 2022 - May 2024",
@@ -142,11 +142,11 @@ const educationInfo = {
       // ]
     },
     {
-      schoolName: "Jaypee Institute of Information Technology, Noida, India",
+      schoolName: "Jaypee Institute of Information Technology",
       logo: require("./assets/images/jiit-logo.jpeg"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "July 2017 - May 2021",
-      desc: "Ranked top 10% in the program. Created an app for the college named 'JIIT Companion' and published 2 papers."
+      desc: "Ranked top 10% in the program. Published 2 research papers."
       // descBullets: [
       //   "Software Development Fundamentals",
       //   "Data Structures and Algorithms",
@@ -320,7 +320,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Microsoft 'Week of AI'Microsoft 'Week of AI'",
+      title: "Microsoft 'Week of AI' Participant",
       subtitle:
         "Participated in Microsoft 'Week of AI' and completed the course.",
       image: require("./assets/images/microsoft-logo.jpeg"),

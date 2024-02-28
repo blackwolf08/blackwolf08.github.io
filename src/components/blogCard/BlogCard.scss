@@ -73,6 +73,10 @@
   height: 100%;
 }
 
+.dark-mode .blog-card {
+  background-color: $darkCardBackground;
+}
+
 .blog-card::before {
   content: "";
   position: absolute;
@@ -95,11 +99,12 @@
 .blog-card:hover > .small {
   transition: all 0.3s ease-out;
   color: $blogCardHoverSmallColor;
+  color: $textColorDark;
 }
 
 .blog-card:hover > h3 {
   transition: all 0.3s ease-out;
-  color: $darkBoxShadow2;
+  color: $textColorDark;
 }
 
 @media screen and (max-width: 480px) and (min-width: 300px),
@@ -145,5 +150,5 @@
   }
 }
 .blog-card-shadow {
-  box-shadow: 1px 0px 20px $darkBoxShadow2;
+  box-shadow: $darkBoxShadow2 0px 20px 30px -10px;
 }
