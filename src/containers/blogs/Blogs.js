@@ -83,7 +83,7 @@ export default function Blogs() {
                       key={i}
                       isDark={isDark}
                       blog={{
-                        url: blog.link,
+                        url: blog.url,
                         title: blog.title,
                         description: extractTextContent(blog.content)
                       }}
